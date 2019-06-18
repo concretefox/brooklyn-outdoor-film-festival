@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<!-- CSS-->
+	<link rel="stylesheet" href="assets/css/css-main.css">
+
+	<!--my custom bootstrap v.2.0 -->
+	<link rel="stylesheet" href="assets/css/bootstrap2.min.css">
+
+	<!-- Font awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+
+	<title>Brooklyn Outdoor Film Festival 2019</title>
+
+
+<!-- Maps API styling-->
+<style>
+/* Set the size of the div element that contains the map */
+#map {
+		height: 500px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
+</style>			
+				
+</head>
+	
+		
+<!--Nav Bar Section --> 
+	<nav class="navbar navbar-dark bg-dark navbar-expand-md sticky-top">
+	<a class="navbar-brand" href="index.html">#BOFF19<span class="sr-only">Home page</span></a>
+
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+	<span class="navbar-toggler-icon"></span>
+	</button>
+
+		<div class="collapse navbar-collapse" id="navbarText">
+		<ul class="navbar-nav mr-auto">
+			
+			<li class="nav-item">
+				<a class="nav-item nav-link" href="whats-on.html">What's on<span class="sr-only">What's on page</span></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-item nav-link" href="tickets.html">Register<span class="sr-only">Register page</span></a>
+		</li>
+		<li class="nav-item active">
+			<a class="nav-item nav-link active" href="travel.html">Travel<span class="sr-only">Travel page</span></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-item nav-link" href="about.html">About<span class="sr-only">About</span></a>
+			</li>
+		</ul>
+
+	
+	<!-- Socials in nav bar-->			
+	<span class="navbar-socials">
+			<a href="https://www.facebook.com/BrooklynFilmFestival/"> <i class="fab fa-facebook-square fa-2x"></i></a>
+			<a href="https://twitter.com/brooklynfest?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"> <i class="icon fab fa-twitter-square fa-2x"></i></a>
+			<a href="https://www.instagram.com/brooklynfilmfestival/"> <i class="fab fa-instagram fa-2x"></i></a>
+
+	</span>
+</nav>
+
+
+
+
+<!-- Google APT Map Main -->
+<div class="container">
+
+   	<!--The div element for the map -->
+		 <div id="map"></div>
+		 <script>
+		 // Initialize and add the map
+		 function initMap() {
+			 // The location of Uluru
+			 var uluru = {lat:40.699459, lng:-73.997388};
+			 // The map, centered at Uluru
+				
+			 var map = new google.maps.Map(
+				 document.getElementById('map'), {zoom: 15, center: uluru});
+			// The marker, positioned at Uluru
+			 var marker = new google.maps.Marker({position: uluru, map: map});
+ 				}
+		 	</script>
+
+
+<!-- New tiles -->
+<div class="d-flex justify-content-center">
+	<div class="card-columns">
+		<div class="card">
+			<img class="card-img-top" src="https://archpaper.com/wp-content/uploads/2018/07/Pier-3-640x0-c-default.jpg" alt="Card image cap">
+			<div class="card-body">
+				<h4 class="card-title">Where are we?</h4>
+				<p class="card-text">The film festival is situated at Brooklyn Bridge Park right next pier 3 besides Brooklyn Bridge.</p>
+			</div>
+		</div>
+		<div class="card">
+			<img class="card-img-top" src="assets/images/travel/subway.jpg" alt="subway directions">
+			<div class="card-body">
+				<h5 class="card-title">Closest Subways</h5>
+				<p class="card-text">High Street/Brooklyn Bridge, Court Street and York St.</p>
+				<p class="card-text"><small class="text-muted">Less than 10 minute walk away </small></p>
+			</div>
+		</div>
+		<div class="card text-center">
+			<img class="card-img-bottom" src="assets/images/travel/park.png" alt="Brooklyn Prk">
+			<div class="card-body">
+				<h5 class="card-title">By foot</h5>
+				<p class="card-text">Head east down Clark, Middah or Remsen St. </p>
+				<p class="card-text"><small class="text-muted"></small></p>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+</div> <!-- Container top page-->
+
+
+
+	<!-- Footer -->
+	<div class="container">
+		<div class="row py-4">
+			<div class="col-md-10">
+				<div class="d-flex justify-content-center">
+					<a href="http://brooklyn.news12.com/">
+						<img src="assets/images/index/brooklyn-news.png" width="100" height="50"
+							alt="Brooklyn News  Website"></a>
+					<a href="https://www.brooklynbridgepark.org/">
+						<img src="assets/images/index/brooklyn-park-logo.jpeg" width="50" height="50"
+							alt="Brooklyn Park Website Link"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10">
+				<footer id="footer">
+					<div class="d-flex justify-content-center">
+
+						<span class="footer-social">
+							<a href="https://www.facebook.com/BrooklynFilmFestival/"> <i
+									class="fab fa-facebook-square fa-2x "></i></a>
+							<a href="https://twitter.com/brooklynfest?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+								<i class="icon fab fa-twitter-square fa-2x"></i></a>
+							<a href="https://www.instagram.com/brooklynfilmfestival/"> <i
+									class="fab fa-instagram fa-2x"></i></a>
+						</span>
+					</div>
+					<div class="d-flex justify-content-center">
+						<p class="copyright">&copy; Brooklyn Outdoor Film Festival 2019, Design: <a href="https://www.concretefox.co.uk">Concrete Fox</a></p>
+					</div>
+			</div>
+		</div>
+</div>
+</footer>
+
+
+
+
+	<!-- Scripts-->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>	
+		
+
+<!--Maps API Remember API KEY!-->
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDe-G68ZGE-o0U-fspMqDRV6EgutP_bup0&callback=initMap">
+	</script>		
+
+
+
+
+</body>
+</html>

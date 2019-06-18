@@ -1,0 +1,305 @@
+
+/* INDEX PAGE */        /* INDEX PAGE */
+
+
+.navbar-brand {
+
+}
+
+
+
+.jumbotron-hero  {
+
+  background: url(https://images.unsplash.com/photo-1516968618173-06badfeae212?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+  
+  background-size: cover;
+  background-size: 100% 100%;
+
+}
+
+
+/* code for cropping image with jumbo */ 
+?width=3200&height=1680&fit=crop
+//assets/images/index/brooklyn-bridge-girl.jpg
+
+
+.jumbotron-index-whats-on {
+  background: url(https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80?width=3200&height=1680&fit=crop);
+  background-size: cover;
+  background-size: 100% 100%;
+}
+
+
+
+.jumbotron-index-travel{
+
+  background: url(https://images.unsplash.com/photo-1529256879299-f530fa27a9de?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+  background-size: cover;
+} 
+
+.jumbotron-index-tickets {
+
+  background: url(https://images.unsplash.com/photo-1502056603297-092f33829ba4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=925&q=80);
+  background-size: 100% 100%;
+}
+
+
+.jumbotron-index-about {
+
+  background: url(https://images.unsplash.com/photo-1440404653325-ab127d49abc1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+  background-size: 100% 100%;
+
+}
+
+.jumbotron-index-volunteer {
+
+  background: url(https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+  background-size: 100% 100%;
+}
+
+
+.container-hero1 {
+  justify-content:center;
+}
+
+.jumbotron-travel{
+
+  background: url(https://images.unsplash.com/reserve/BSM39tNSzeAO7ppb6Yek_ThomasBormans.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1111&q=80auto=format&fit=crop&w=&q=80);
+  background-size: cover;
+} 
+
+
+.container-footer{
+  justify-content: absolute; 
+}
+
+
+/* Container OLD IMAGE */
+
+
+.img-wrapper {
+  position: relative;
+ }
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+
+.img-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.img-overlay:before {
+  content: ' ';
+  display: block;
+  /* adjust 'height' to position overlay content vertically */
+  height: 45%;
+}
+
+ /* About us */
+
+ .carousel-inner .carousel-about{
+
+  max-height:20%;
+}
+
+.carousel-about {
+
+  max-height:20%;
+}
+
+
+/* Whats on Page */             /* Whats on Page */
+
+.jumbotron-whats-on-main {
+
+  background: url(https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80?width=3200&height=1680&fit=crop);
+  background-size: cover;
+  background-size: 100% 100%;
+
+}
+
+/* Monday 5th August Page */
+
+.card-img-top {
+
+  object-fit:cover;
+  
+}
+
+#footer {
+
+  font:color:#333a40;
+}
+
+/* Tickets Page */                /* Tickets Page */
+
+.jumbotron-tickets{
+
+  background: url(https://images.unsplash.com/photo-1502056603297-092f33829ba4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=925&q=80);
+  background-size: cover;
+  background-size: 100% 100%;
+
+}
+
+
+
+/* MEDIA QUERIES   */   /* MEDIA QUERIES   */   /* MEDIA QUERIES   */
+/* MEDIA QUERIES   */   /* MEDIA QUERIES   */   /* MEDIA QUERIES   */
+
+
+@media all and (min-width: 25em) { /* Mobiles 47.938em // 417px */ 
+ 
+  body p {
+    font-size: 1em; 
+    
+    }
+
+  .list-group  {
+    font-size: 1em;  
+  
+  } 
+
+  .list-group {
+    justify-content:center;
+  }
+
+   
+@media all and (min-width: 47.938em) { /* Talets 47.938em // 767px */ 
+ 
+  body p {
+    font-size: 1em; 
+    
+    }
+
+  .list-group  {
+      font-size: 1em;  
+    } 
+
+
+@media all and (min-width: 48em) { /* NEW PHONES 48em // 768px */ 
+
+
+  body p {
+  font-size: 1.2em; 
+  
+  }
+
+  
+  .form-inline-registration {
+  justify:absolute;
+    
+  }
+
+  #reg_form {
+  justify:absolute;
+
+  }
+
+  .navbar-socials {
+    padding:20px;
+    
+  }
+
+  .container-hero1 h1 {
+    justify-content:center;
+    align-content:center;
+   
+  }
+  
+  .container-hero2 {
+    justify-content:center;
+    align-content:center;
+   
+  }
+  
+  .container-hero3 {
+    justify-content:center;
+    align-content:center;
+  
+  }
+  
+  .navbar-toggler{
+    justify-content: right;
+   
+  }
+
+
+
+    }
+
+    @media screen and (min-width: 62em;) { /* More mobiles until 992px/ 62em // 850px */
+     
+      body p {
+        font-size: 1.6em; 
+        
+        }
+
+        .instagram-feed {
+          width: 25%;
+          height: 20%;
+          object-fit:cover;
+          }
+          
+
+    @media all and (max-width: 64em) { /* MEDIUM SIZE screen size until 1024px / 64em; // 1024px  */
+      body p {
+        font-size: 2em; 
+        
+        }
+      
+        .container.instagram-feed {
+          width: 25%;
+          height: 20%;
+          object-fit:cover;
+          }
+          
+  @media all and (max-width:85.375em ) { /* LARGE SIZE - screen size until 1366px / 85.375em; // 1366px */
+    body p {
+      font-size: 2.5em; 
+      
+      }
+    
+
+
+
+    
+/* SEEMS TO MAKE FONT BIGGER ON  500PX??!!
+
+
+ @media all and (max-width:120em ) { /* X LARGE  - 120em; // 1920px
+  body {
+    font-size:1.6em; 
+}
+
+
+@media all and (max-width:160em ) { /* 4K AND BEYOND  - 160em; // 2560px
+  body {
+      font-size:2em; 
+
+  }
+
+*/
+
+  
+  .navbar-toggler{
+    justify-content: right;
+   
+  }
+
+  .navbar-socials {
+    padding:20px;
+    
+  }
+
+
+
+
+
+
+  

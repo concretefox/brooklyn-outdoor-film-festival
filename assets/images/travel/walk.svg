@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:ns1="http://sozi.baierouge.fr"
+    id="svg2"
+    sodipodi:docname="crosswalk3.svg"
+    viewBox="0 0 183.3 419.39"
+    version="1.1"
+    inkscape:version="0.47 r22583"
+  >
+  <title
+      id="title10934"
+    >Crosswalk Signal</title
+  >
+  <sodipodi:namedview
+      id="base"
+      bordercolor="#666666"
+      inkscape:pageshadow="2"
+      inkscape:window-y="-4"
+      pagecolor="#ffffff"
+      inkscape:window-height="753"
+      inkscape:window-maximized="1"
+      inkscape:zoom="0.98994949"
+      inkscape:window-x="-4"
+      showgrid="false"
+      borderopacity="1.0"
+      inkscape:current-layer="layer1"
+      inkscape:cx="168.28254"
+      inkscape:cy="241.75376"
+      inkscape:window-width="1280"
+      inkscape:pageopacity="0.0"
+      inkscape:document-units="px"
+  />
+  <g
+      id="layer1"
+      inkscape:label="Layer 1"
+      inkscape:groupmode="layer"
+      transform="translate(1286 -1836.6)"
+    >
+    <g
+        id="g5625"
+      >
+      <path
+          id="path10528"
+          style="color:#000000;stroke:#000000;stroke-width:5.3454;fill:#17280b"
+          d="m-1212.9 2012.8 27.117 0.9435 0.681-31.158-24.423-1.1187-3.3752 31.333z"
+      />
+      <path
+          id="path9344"
+          sodipodi:nodetypes="ccccccccc"
+          style="stroke:#000000;stroke-width:5.3454;fill:#17280b"
+          d="m-1219.4 2135.2-7.2011 85.691 37.868 4.8834-2.4417 18.934 37.379 8.6702 8.6702-37.38-44.953-9.6469-1.165-65.596-28.156-5.5559z"
+      />
+      <g
+          id="g5619"
+        >
+        <rect
+            id="rect2994"
+            style="color:#000000;fill:#1a1a1a"
+            transform="rotate(3.0843)"
+            height="145.29"
+            width="160.11"
+            y="2064.1"
+            x="-1165.3"
+        />
+        <path
+            id="path2996"
+            style="stroke:#d2a800;stroke-width:6;fill:none"
+            d="m-1283 2144.5 7.8265-145.25 159.37 8.5875-7.7722 144.24"
+        />
+      </g
+      >
+      <use
+          id="use5623"
+          xlink:href="#g5619"
+          transform="translate(10.102 -159.6)"
+          height="516.0528"
+          width="478.69809"
+          y="0"
+          x="0"
+      />
+      <path
+          id="path9484"
+          style="fill-rule:evenodd;fill:#ffffff"
+          d="m-1205.1 1921.7s-0.9235-7.3713-0.861-9.3047c0.062-1.9327 4.7471-15.302 4.7471-15.302l-5.045 0.6069-2.5533 19.239-5.4408 0.9865 0.4337-25.49 27.834-13.356c-1.353-1.4388-2.1543-3.3917-2.0855-5.5223 0.1373-4.2541 3.6971-7.592 7.9512-7.4546 4.2516 0.1367 7.5918 3.6977 7.4546 7.9512-0.1371 4.2534-3.7 7.5875-7.9515 7.4501-0.2963 0-0.5792-0.064-0.8567-0.113l0.4591 0.489s1.035 3.9243 2.5287 5.5156l4.1205 15.977 15.493 10.932-3.2363 4.5352-16.044-5.9266-4.742-8.6562-5.7917 11.795 7.9744 16.49 8.5527 34.284-8.9899 3.1838-8.6842-30.419-5.1793-7.1253-16.264 36.962-7.9825-4.1193 14.161-43.6"
+      />
+    </g
+    >
+  </g
+  >
+  <metadata
+    >
+    <rdf:RDF
+      >
+      <cc:Work
+        >
+        <dc:format
+          >image/svg+xml</dc:format
+        >
+        <dc:type
+            rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+        />
+        <cc:license
+            rdf:resource="http://creativecommons.org/licenses/publicdomain/"
+        />
+        <dc:publisher
+          >
+          <cc:Agent
+              rdf:about="http://openclipart.org/"
+            >
+            <dc:title
+              >Openclipart</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:publisher
+        >
+        <dc:title
+          >Crosswalk Signal</dc:title
+        >
+        <dc:date
+          >2010-11-06T19:41:28</dc:date
+        >
+        <dc:description
+          >A crosswalk signal showing the symbol for "walk".  Walking signal symbol is from Manual on Uniform Traffic Control Devices (MUTCD), Millennium Edition with incorporated Revision Number 1 changes, dated December 28, 2001; "Any traffic control device design or application provision contained in this Manual shall be considered to be in the public domain. Traffic control devices contained in this Manual shall not be protected by a patent or copyright, except for the Interstate Shield."; http://mutcd.fhwa.dot.gov/HTM/millennium/12.28.01/introduction/MUTCD_intro.htm</dc:description
+        >
+        <dc:source
+          >https://openclipart.org/detail/94549/crosswalk-signal-by-mazeo</dc:source
+        >
+        <dc:creator
+          >
+          <cc:Agent
+            >
+            <dc:title
+              >mazeo</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:creator
+        >
+        <dc:subject
+          >
+          <rdf:Bag
+            >
+            <rdf:li
+              >crossing</rdf:li
+            >
+            <rdf:li
+              >crosswalk</rdf:li
+            >
+            <rdf:li
+              >crosswalk signal</rdf:li
+            >
+            <rdf:li
+              >pedestrian crossing</rdf:li
+            >
+            <rdf:li
+              >remix</rdf:li
+            >
+            <rdf:li
+              >transportation</rdf:li
+            >
+            <rdf:li
+              >walk</rdf:li
+            >
+            <rdf:li
+              >walk signal</rdf:li
+            >
+            <rdf:li
+              >walking</rdf:li
+            >
+          </rdf:Bag
+          >
+        </dc:subject
+        >
+      </cc:Work
+      >
+      <cc:License
+          rdf:about="http://creativecommons.org/licenses/publicdomain/"
+        >
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Reproduction"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Distribution"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#DerivativeWorks"
+        />
+      </cc:License
+      >
+    </rdf:RDF
+    >
+  </metadata
+  >
+</svg
+>
