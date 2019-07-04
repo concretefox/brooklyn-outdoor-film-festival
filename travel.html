@@ -17,8 +17,6 @@
 
 
 	<title>Brooklyn Outdoor Film Festival 2019</title>
-
-
     <style>
        /* Set the size of the div element that contains the map */
       #map {
@@ -27,23 +25,9 @@
        }
     </style>
 
-	
 				
 </head>
-	
-	<div id="map"></div>
-    <script>
-// Initialize and add the map
-function initMap() {
-  // The location of Uluru
-  var uluru = {lat: -25.344, lng: 131.036};
-  // The map, centered at Uluru
-  var map = new google.maps.Map(
-      document.getElementById('map'), {zoom: 4, center: uluru});
-  // The marker, positioned at Uluru
-  var marker = new google.maps.Marker({position: uluru, map: map});
-}
-	
+
 		
 <!--Nav Bar Section --> 
 	<nav class="navbar navbar-dark bg-dark navbar-expand-md sticky-top">
@@ -86,21 +70,19 @@ function initMap() {
 <!-- Google APT Map Main -->
 <div class="container">
 
-   	<!--The div element for the map -->
-		 <div id="map"></div>
-		 <script>
-		 // Initialize and add the map
-		 function initMap() {
-			 // The location of Uluru
-			 var uluru = {lat:40.699459, lng:-73.997388};
-			 // The map, centered at Uluru
-				
-			 var map = new google.maps.Map(
-				 document.getElementById('map'), {zoom: 15, center: uluru});
-			// The marker, positioned at Uluru
-			 var marker = new google.maps.Marker({position: uluru, map: map});
- 				}
-		 	</script>
+  <!--The div element for the map -->
+    <div id="map"></div>
+    <script>
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  var uluru = {lat: -25.344, lng: 131.036};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: uluru});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
 
 
 <!-- New tiles -->
